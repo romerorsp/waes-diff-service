@@ -1,4 +1,4 @@
-package com.wearewaes.diff.rs.model;
+package com.wearewaes.diff.rs.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Content {
+public class DiffError {
 
-  private String value;
+  private String message;
 }
