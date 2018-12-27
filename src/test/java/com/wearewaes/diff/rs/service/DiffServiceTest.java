@@ -41,7 +41,6 @@ public class DiffServiceTest {
 
     Mockito.when(template.save(Mockito.any(DiffEntry.class)))
         .thenReturn(Mockito.mock(DiffEntry.class));
-    Mockito.when(diffTool.infer(Mockito.any())).thenReturn(Mockito.mock(DiffResult.class));
     Mockito.when(transformer.fromRequest(Mockito.anyString(), Mockito.any(), Mockito.any()))
         .thenReturn(Mockito.mock(DiffEntry.class));
 
